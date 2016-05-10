@@ -29,7 +29,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'sample=sample:main',
+            'sysmonitor=sysmonitor.__main__:main',
         ],
     },
 )
