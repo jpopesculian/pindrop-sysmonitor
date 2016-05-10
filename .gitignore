@@ -89,4 +89,4 @@ ENV/
 .ropeproject
 
 .idea
-#sysmonitor/data
+sysmonitor/data
