@@ -48,9 +48,6 @@ def fetch(conn, table, sort=1, page=0, size=20):
         'events': result
     }
 
-
-
-
 def fetch_last(conn, table):
     c = conn.cursor()
     c.execute('''

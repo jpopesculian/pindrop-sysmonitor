@@ -9,7 +9,7 @@ def main():
     parser.add_argument('--no-server', dest='server', action='store_false', help="don't start RESTful server")
     parser.set_defaults(server=True)
 
-    parser.add_argument('--interval', '-i', dest='interval', type=int, default=5, help="how often to take stats in minutes (default 5)")
+    parser.add_argument('--interval', '-i', dest='interval', type=int, default=5, help="how often to take stats in seconds (default 5)")
 
     args = parser.parse_args()
 
